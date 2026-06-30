@@ -10,7 +10,7 @@ export default function UI({ gameState, goal, interaction, cutProgress, fallProg
   return (
     <div className={`ui ${falling ? 'falling' : ''}`}>
       <section className="topPanel">
-        <h1>落とし穴キッチン</h1>
+        <h1>Happy Under Cooking</h1>
         <p>{goal}</p>
         <div className="controls">WASD 移動 / E 調べる / Space 千切り</div>
       </section>
